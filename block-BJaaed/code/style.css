@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom styles */
+
+/* general styles */
+*,*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: rgb(253,245,232);
+}
+a{
+    text-decoration:none;
+}
+.flex{
+    display:flex;
+}
+.flex-20{
+    flex:0 1 20%;
+}
+.flex-30{
+    flex:0 1 30%;
+    border: 1px solid red;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.space-around{
+    justify-content: space-around;
+}
+.items-center{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1300px;
+    width:100%;
+    margin:0 auto;
+    padding:0 2rem;
+}
+.center{
+    text-align: center;
+}
+/* header */
+.header{
+    padding: 20px;
+    background-color: rgb(55,126,128);
+    color:rgb(251,253,85);
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.img-set{
+    margin-top: 1rem;
+    width:50%;
+    /* height: 70%;  */
+}
+button{
+    padding: .4rem 1rem;
+    text-transform: capitalize;
+    cursor:pointer;
+    margin: .5rem 0 .5rem 0;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(53,126,130);
+    color:white;
+
+}
